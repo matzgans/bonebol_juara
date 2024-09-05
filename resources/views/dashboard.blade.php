@@ -41,7 +41,7 @@
     </div>
 
     <!-- Audio Elements -->
-    <audio id="success-sound" src="{{ asset('sounds/success.mp3') }}" preload="auto"></audio>
+    <audio id="success-sound" src="{{ asset('sounds/success1.mp3') }}" preload="auto"></audio>
     <audio id="error-sound" src="{{ asset('sounds/error.mp3') }}" preload="auto"></audio>
 
     @push('after-scripts')
@@ -53,7 +53,7 @@
 
                 Swal.fire({
                     icon: 'success',
-                    title: 'Berhasil!',
+                    title: 'Benar!',
                     text: '{{ session('success') }}',
                     timer: 3000,
                     showConfirmButton: false
